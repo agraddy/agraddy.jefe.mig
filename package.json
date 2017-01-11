@@ -6,17 +6,25 @@
   "author": "Anthony Graddy",
   "license": "MIT",
   "homepage": "https://github.com/agraddy/agraddy.jefe.mig#readme",
+  "jefe": "mig",
+  "bin": {
+    "mig": "bin/index.js"
+  },
   "scripts": {
     "test": "node ./test"
   },
   "repository": {
-	  "type": "git",
-	  "url": "git://github.com/agraddy/agraddy.jefe.mig.git"
+    "type": "git",
+    "url": "git://github.com/agraddy/agraddy.jefe.mig.git"
   },
   "bugs": {
-	  "url": "https://github.com/agraddy/agraddy.jefe.mig/issues"
+    "url": "https://github.com/agraddy/agraddy.jefe.mig/issues"
   },
   "devDependencies": {
-	  "tape": "^4.6.3"
+    "tape": "^4.6.3"
+  },
+  "dependencies": {
+    "async": "^2.1.4",
+    "mysql": "^2.12.0"
   }
 }
